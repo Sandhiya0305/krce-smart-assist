@@ -1,0 +1,13 @@
+D:\san\KRCE-Mobile-System\backend\src\main\java\com\krce\mobilebackend\config\WebConfig.java
+D:\san\KRCE-Mobile-System\backend\src\main\java\com\krce\mobilebackend\controller\ChatController.java
+D:\san\KRCE-Mobile-System\backend\src\main\java\com\krce\mobilebackend\controller\CollegeController.java
+D:\san\KRCE-Mobile-System\backend\src\main\java\com\krce\mobilebackend\controller\ContactController.java
+D:\san\KRCE-Mobile-System\backend\src\main\java\com\krce\mobilebackend\entity\ChatLog.java
+D:\san\KRCE-Mobile-System\backend\src\main\java\com\krce\mobilebackend\entity\ContactMessage.java
+D:\san\KRCE-Mobile-System\backend\src\main\java\com\krce\mobilebackend\entity\SitePage.java
+D:\san\KRCE-Mobile-System\backend\src\main\java\com\krce\mobilebackend\KrceMobileBackendApplication.java
+D:\san\KRCE-Mobile-System\backend\src\main\java\com\krce\mobilebackend\repository\ChatLogRepository.java
+D:\san\KRCE-Mobile-System\backend\src\main\java\com\krce\mobilebackend\repository\ContactMessageRepository.java
+D:\san\KRCE-Mobile-System\backend\src\main\java\com\krce\mobilebackend\repository\SitePageRepository.java
+D:\san\KRCE-Mobile-System\backend\src\main\java\com\krce\mobilebackend\service\ChatService.java
+D:\san\KRCE-Mobile-System\backend\src\main\java\com\krce\mobilebackend\service\LiveScraperService.java

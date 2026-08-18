@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/off_white">
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="@color/white"
+        android:elevation="8dp"
+        android:orientation="horizontal"
+        android:padding="8dp">
+        <Button android:id="@+id/navHome" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="Home" android:textAllCaps="false" android:textColor="@color/black" android:backgroundTint="@color/white" />
+        <Button android:id="@+id/navExplore" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="Explore" android:textAllCaps="false" android:textColor="@color/black" android:backgroundTint="@color/white" />
+        <Button android:id="@+id/navBot" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="KRCE Bot" android:textAllCaps="false" android:textColor="@color/white" android:backgroundTint="@color/black" />
+        <Button android:id="@+id/navContact" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:text="Contact" android:textAllCaps="false" android:textColor="@color/black" android:backgroundTint="@color/white" />
+    </LinearLayout>
+</LinearLayout>

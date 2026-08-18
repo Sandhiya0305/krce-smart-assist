@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#111111</color>
+    <color name="gray_100">#EEEEEC</color>
+    <color name="gray_300">#CCCCCA</color>
+    <color name="gray_500">#777777</color>
+    <color name="gray_700">#333333</color>
+    <color name="off_white">#F6F6F4</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">KRCE Mobile</string>
+    <string name="college_name">K. Ramakrishnan College of Engineering</string>
+    <string name="college_tagline">Student\'s Success is Our Success</string>
+    <string name="site_url">https://www.krce.ac.in/</string>
+    <style name="Theme.KRCEMobile" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowBackground">@color/off_white</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical">
+            <ImageView android:layout_width="52dp" android:layout_height="52dp" android:src="@drawable/ic_krce" android:contentDescription="KRCE logo" />
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:paddingStart="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="KRCE" android:textSize="24sp" android:textStyle="bold" android:textColor="@color/black" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Mobile College Portal" android:textSize="13sp" android:textColor="@color/gray_500" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView android:id="@+id/heroImage" android:layout_width="match_parent" android:layout_height="220dp" android:layout_marginTop="18dp" android:scaleType="centerCrop" android:background="@drawable/bg_hero" android:contentDescription="KRCE campus" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="K. Ramakrishnan College of Engineering" android:textSize="27sp" android:textStyle="bold" android:textColor="@color/black" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="Student's Success is Our Success" android:textSize="16sp" android:textColor="@color/gray_700" />
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="20dp">
+            <Button android:id="@+id/syncButton" android:layout_width="0dp" android:layout_height="52dp" android:layout_weight="1" android:text="Sync Official Site" android:textAllCaps="false" android:textColor="@color/white" android:backgroundTint="@color/black" />
+            <Button android:id="@+id/officialButton" android:layout_width="0dp" android:layout_height="52dp" android:layout_weight="1" android:layout_marginStart="10dp" android:text="Open KRCE ↗" android:textAllCaps="false" android:textColor="@color/black" android:backgroundTint="@color/white" />
+        </LinearLayout>
+        <TextView android:id="@+id/syncStatus" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Backend-backed • live website data" android:textSize="12sp" android:textColor="@color/gray_500" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="28dp" android:text="Explore KRCE" android:textSize="21sp" android:textStyle="bold" android:textColor="@color/black" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="Departments, facilities, admissions, library, management and official pages — all sourced from the KRCE website." android:textSize="15sp" android:textColor="@color/gray_700" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="28dp" android:padding="20dp" android:text="🤖  KRCE Bot\nAsk a question and get an answer with the official source page." android:textSize="17sp" android:textStyle="bold" android:textColor="@color/white" android:background="@drawable/bg_user_bubble" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Get in touch" android:textSize="30sp" android:textStyle="bold" android:textColor="@color/black" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="Send an enquiry to the KRCE backend. Required fields are marked by the form validation." android:textSize="15sp" android:textColor="@color/gray_700" />
+        <EditText android:id="@+id/contactName" android:layout_width="match_parent" android:layout_height="55dp" android:layout_marginTop="24dp" android:hint="Name *" android:padding="16dp" android:background="@drawable/bg_bot_bubble" />
+        <EditText android:id="@+id/contactPhone" android:layout_width="match_parent" android:layout_height="55dp" android:layout_marginTop="10dp" android:hint="Phone Number *" android:inputType="phone" android:padding="16dp" android:background="@drawable/bg_bot_bubble" />
+        <EditText android:id="@+id/contactMessage" android:layout_width="match_parent" android:layout_height="140dp" android:layout_marginTop="10dp" android:hint="Message" android:gravity="top" android:padding="16dp" android:background="@drawable/bg_bot_bubble" />
+        <Button android:id="@+id/contactSubmit" android:layout_width="match_parent" android:layout_height="55dp" android:layout_marginTop="14dp" android:text="Submit" android:textAllCaps="false" android:textColor="@color/white" android:backgroundTint="@color/black" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="28dp" android:text="K. Ramakrishnan College of Engineering\nNH 45, Samayapuram, Tiruchirappalli, Tamil Nadu 621112\n\n+91 98429 91377\nAdmissions: +91 90038 29977, 73732 84777\ninfo@krce.ac.in" android:textSize="16sp" android:lineSpacingExtra="5dp" android:textColor="@color/gray_700" />
+    </LinearLayout>
+</ScrollView>
